@@ -19,10 +19,15 @@ body {
 
 .robot {
   width: 320px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -.05%);
 }
 
 .robot-body {
   width: 320px;
+  position: absolute;
+  bottom: 0;
 }
 
 .robot-brain {
